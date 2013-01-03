@@ -1,0 +1,20 @@
+{
+	"name": "silverstripe/termsandconditions",
+	"type": "silverstripe-module",
+	"description": "add a terms and conditions page to your silverstripe website",
+	"homepage": "http://www.silverstripe-webdevelopment.com",
+	"keywords": ["termsandconditions", "silverstripe"],
+	"license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
+	"authors":[
+		{
+			"name": "Nicolaas Francken",
+			"homepage": "https://github.com/sunnysideup",
+			"email" : "modules@sunnysideup.co.nz",
+			"role" : "lead developer"
+		}
+	],
+	"require":{
+		"php": ">=5.3.2",
+		"silverstripe/framework": "3.0.*"
+	}
+}
