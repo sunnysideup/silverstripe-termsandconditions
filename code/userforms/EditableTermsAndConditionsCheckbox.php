@@ -8,11 +8,11 @@
 
 class EditableTermsAndConditionsCheckbox extends EditableFormField {
 
-	static $singular_name = 'Terms and Conditions Checkbox';
+	private static $singular_name = 'Terms and Conditions Checkbox';
 
-	static $plural_name = 'Terms and Conditions Checkboxes';
+	private static $plural_name = 'Terms and Conditions Checkboxes';
 
-	static $has_one = array(
+	private static $has_one = array(
 		"TandCPage" => "SiteTree"
 	);
 
@@ -21,9 +21,9 @@ class EditableTermsAndConditionsCheckbox extends EditableFormField {
 		$options->push(new CheckboxField("Fields[$this->ID][CustomSettings][Default]", _t('EditableFormField.CHECKEDBYDEFAULT', 'Checked by Default?'), $this->getSetting('Default')));
 
 		$defaultID = ($this->getSetting('TandCPageID')) ? $this->getSetting('TandCPageID') : 0;
-		$pages = DataObject::get("TermsAndConditionsPage");
-		if($pages) {
-			$source = $pages->toDropDownMap("ID", "Title", "--- Make sure to select this ---");
+		$pages = TermsAndConditionsPage::get();
+		if($pages->count()) {
+			$source = TermsAndConditionsPage::get()->map("ID", "Title")->toArray();
 			$options->push(new DropdownField("Fields[$this->ID][CustomSettings][TandCPageID]", "What is your Terms and Conditions page?  This will be added as a link to the end of your field title.", $source, $defaultID));
 		}
 		else {
@@ -34,7 +34,7 @@ class EditableTermsAndConditionsCheckbox extends EditableFormField {
 
 	public function getFormField() {
 		$id = intval($this->getSetting('TandCPageID')) - 0;
-		$page = DataObject::get_by_id("TermsAndConditionsPage", $id);
+		$page = TermsAndConditionsPage::get()->byID($id);
 		$extraHTML = '';
 		if($page) {
 			$extraHTML = ' <span class="linkToTermsAndConditionsPage"><a href="'.$page->Link().'" class="externalLink" target="_blank">'.$page->Title.'</a></span>';

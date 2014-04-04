@@ -3,7 +3,7 @@
 	"type": "silverstripe-module",
 	"description": "add a terms and conditions page to your silverstripe website",
 	"homepage": "http://www.silverstripe-webdevelopment.com",
-	"keywords": ["termsandconditions", "silverstripe"],
+	"keywords": ["termsandconditions", "silverstripe", "terms and conditions", "checkbox"],
 	"license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
 	"authors":[
 		{
@@ -14,9 +14,10 @@
 		}
 	],
 	"require":{
-		"php": ">=5.3.2",
-		"silverstripe/framework": "~2.4",
-		"silverstripe/userforms": "~2.4"
-		
+		"silverstripe/framework": "~3.1",
+		"silverstripe/cms": "~3.1"
+	},
+	"extra": {
+		"installer-name": "termsandconditions"
 	}
 }
