@@ -1,6 +1,5 @@
-###############################################
 Terms and Conditions
-###############################################
+================================================================================
 
 Add a TERMS AND CONDITIONS page to your website
 and make it easier for the developer to add a checkbox
