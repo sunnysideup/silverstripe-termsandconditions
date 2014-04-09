@@ -1,0 +1,110 @@
+
+------------------------------------
+Files Searched
+------------------------------------
+/templates/Layout/TermsAndConditionsPage.ss
+
+------------------------------------
+Summary: by search key
+------------------------------------
+
+------------------------------------
+Summary: by directory
+------------------------------------
+
+------------------------------------
+Summary: by root directory (/)
+------------------------------------
+
+------------------------------------
+Total replacements: 0
+------------------------------------
+1 matches (COMPLEX) for: 'DataObject::get('
+   -- Replaced in 1 places IN EditableTermsAndConditionsCheckbox.php
+1 matches (COMPLEX) for: 'DataObject::get_one('
+   -- Replaced in 1 places IN TermsAndConditionsPage.php
+1 matches (COMPLEX) for: 'DataObject::get_by_id('
+   -- Replaced in 1 places IN EditableTermsAndConditionsCheckbox.php
+1 matches (COMPLEX) for: '->toDropDownMap('
+   -- Replaced in 1 places IN EditableTermsAndConditionsCheckbox.php
+
+------------------------------------
+Files Searched
+------------------------------------
+/_config.php
+/code/userforms/EditableTermsAndConditionsCheckbox.php
+/code/TermsAndConditionsPage.php
+
+------------------------------------
+Summary: by search key
+------------------------------------
+1:	 ->toDropDownMap(
+1:	 DataObject::get_by_id(
+1:	 DataObject::get_one(
+1:	 DataObject::get(
+
+------------------------------------
+Summary: by directory
+------------------------------------
+3:	 /code/userforms
+1:	 /code
+
+------------------------------------
+Summary: by root directory (/)
+------------------------------------
+4:	 code/
+
+------------------------------------
+Total replacements: 4
+------------------------------------
+
+------------------------------------
+Files Searched
+------------------------------------
+/templates/Layout/TermsAndConditionsPage.ss
+
+------------------------------------
+Summary: by search key
+------------------------------------
+
+------------------------------------
+Summary: by directory
+------------------------------------
+
+------------------------------------
+Summary: by root directory (/)
+------------------------------------
+
+------------------------------------
+Total replacements: 0
+------------------------------------
+4 matches (BASIC) for: 'static $'
+   -- Replaced in 3 places IN EditableTermsAndConditionsCheckbox.php
+   -- Replaced in 1 places IN TermsAndConditionsPage.php
+
+------------------------------------
+Files Searched
+------------------------------------
+/_config.php
+/code/userforms/EditableTermsAndConditionsCheckbox.php
+/code/TermsAndConditionsPage.php
+
+------------------------------------
+Summary: by search key
+------------------------------------
+4:	 static $
+
+------------------------------------
+Summary: by directory
+------------------------------------
+3:	 /code/userforms
+1:	 /code
+
+------------------------------------
+Summary: by root directory (/)
+------------------------------------
+4:	 code/
+
+------------------------------------
+Total replacements: 4
+------------------------------------
