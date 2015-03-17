@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="TermsAndConditionsPage_Controller" namespace="" name="TermsAndConditionsPage_Controller" abstract="false" final="false" start="12" end="13">
+  <file path="/var/www/_modules/termsandconditions/trunk/docs/en/phpdox/../../../code" file="TermsAndConditionsPage.php" realpath="/var/www/_modules/termsandconditions/trunk/code/TermsAndConditionsPage.php" size="320" time="2015-03-14T10:23:22+13:00" unixtime="1426281802" sha1="80db7d0139f36490e7f870b1b62265711f2409c4" relative="code/TermsAndConditionsPage.php"/>
+  <extends full="Page_Controller" namespace="" name="Page_Controller"/>
+</class>

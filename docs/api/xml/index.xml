@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/termsandconditions/trunk">
+  <namespace name="">
+    <class name="EditableTermsAndConditionsCheckbox" src="code/userforms/EditableTermsAndConditionsCheckbox.php" description="EditableCheckbox A user modifiable checkbox on a UserDefinedForm" xml="classes/EditableTermsAndConditionsCheckbox.xml"/>
+    <class name="TermsAndConditionsPage" src="code/TermsAndConditionsPage.php" xml="classes/TermsAndConditionsPage.xml"/>
+    <class name="TermsAndConditionsPage_Controller" src="code/TermsAndConditionsPage.php" xml="classes/TermsAndConditionsPage_Controller.xml"/>
+  </namespace>
+</index>

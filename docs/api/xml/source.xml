@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src">
+  <dir name="/var/www/_modules/termsandconditions/trunk">
+    <file name="_config.php" size="122" time="2015-03-14T10:23:22+13:00" unixtime="1426281802" sha1="309fde853a647b1c2457e4f97b16968a2cadb0bd" xml="tokens/_config.php.xml"/>
+    <dir name="code">
+      <dir name="userforms">
+        <file name="EditableTermsAndConditionsCheckbox.php" size="2231" time="2015-03-14T10:23:22+13:00" unixtime="1426281802" sha1="8f47218384fc6fa95461add6fd9d1bce852d4a39" xml="tokens/code/userforms/EditableTermsAndConditionsCheckbox.php.xml"/>
+      </dir>
+      <file name="TermsAndConditionsPage.php" size="320" time="2015-03-14T10:23:22+13:00" unixtime="1426281802" sha1="80db7d0139f36490e7f870b1b62265711f2409c4" xml="tokens/code/TermsAndConditionsPage.php.xml"/>
+    </dir>
+  </dir>
+</source>
