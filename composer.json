@@ -1,23 +1,26 @@
 {
-	"name": "sunnysideup/termsandconditions",
-	"type": "silverstripe-module",
-	"description": "add a terms and conditions page to your silverstripe website",
-	"homepage": "http://www.silverstripe-webdevelopment.com",
-	"keywords": ["termsandconditions", "silverstripe", "terms and conditions", "checkbox"],
-	"license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
-	"authors":[
-		{
-			"name": "Nicolaas Francken",
-			"homepage": "https://github.com/sunnysideup",
-			"email" : "modules@sunnysideup.co.nz",
-			"role" : "lead developer"
-		}
-	],
-	"require":{
-		"silverstripe/framework": "~3.1",
-		"silverstripe/cms": "~3.1"
-	},
-	"extra": {
-		"installer-name": "termsandconditions"
-	}
+    "name": "sunnysideup/termsandconditions",
+    "type": "silverstripe-module",
+    "description": "add a terms and conditions page to your silverstripe website",
+    "keywords": [
+        "termsandconditions",
+        "silverstripe",
+        "terms and conditions",
+        "checkbox"
+    ],
+    "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~3.1",
+        "silverstripe/cms": "~3.1"
+    },
+    "extra": {
+        "installer-name": "termsandconditions"
+    }
 }
