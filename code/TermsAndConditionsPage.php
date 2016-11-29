@@ -1,13 +1,15 @@
 <?php
 
-class TermsAndConditionsPage extends Page {
+class TermsAndConditionsPage extends Page
+{
+    private static $icon = "termsandconditions/images/treeicons/TermsAndConditionsPage";
 
-	private static $icon = "termsandconditions/images/treeicons/TermsAndConditionsPage";
-
-	public function canCreate($member = null) {
-		return TermsAndConditionsPage::get()->count ? false : true;
-	}
+    public function canCreate($member = null)
+    {
+        return TermsAndConditionsPage::get()->count ? false : true;
+    }
 }
 
-class TermsAndConditionsPage_Controller extends Page_Controller {
+class TermsAndConditionsPage_Controller extends Page_Controller
+{
 }

@@ -3,8 +3,10 @@
     "type": "silverstripe-module",
     "description": "add a terms and conditions page to your silverstripe website",
     "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
         "termsandconditions",
-        "silverstripe",
         "terms and conditions",
         "checkbox"
     ],
