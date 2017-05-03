@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="TermsAndConditionsPage" namespace="" name="TermsAndConditionsPage" abstract="false" final="false" start="3" end="10">
-  <file path="/var/www/_modules/termsandconditions/trunk/docs/en/phpdox/../../../code" file="TermsAndConditionsPage.php" realpath="/var/www/_modules/termsandconditions/trunk/code/TermsAndConditionsPage.php" size="320" time="2015-03-14T10:23:22+13:00" unixtime="1426281802" sha1="80db7d0139f36490e7f870b1b62265711f2409c4" relative="code/TermsAndConditionsPage.php"/>
-  <extends full="Page" namespace="" name="Page"/>
-  <member name="icon" type="string" default="&quot;termsandconditions/images/treeicons/TermsAndConditionsPage&quot;" visibility="private" line="5"/>
-  <method name="canCreate" start="7" end="9" abstract="false" final="false" static="false" visibility="public">
-    <parameter name="member" byreference="false" type="{unknown}" default="null"/>
-  </method>
-</class>
