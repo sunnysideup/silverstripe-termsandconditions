@@ -1,6 +1,6 @@
 {
     "name": "sunnysideup/termsandconditions",
-    "type": "silverstripe-module",
+    "type": "silverstripe-vendormodule",
     "description": "add a terms and conditions page to your silverstripe website",
     "keywords": [
         "Silverstripe-CMS",
