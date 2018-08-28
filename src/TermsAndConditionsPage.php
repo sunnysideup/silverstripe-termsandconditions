@@ -1,5 +1,11 @@
 <?php
 
+namespace Sunnysideup\TermsAndConditions;
+
+use Page;
+use Page_Controller;
+
+
 class TermsAndConditionsPage extends Page
 {
     private static $icon = "termsandconditions/images/treeicons/TermsAndConditionsPage";

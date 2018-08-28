@@ -1,4 +1,13 @@
 <?php
+
+namespace Sunnysideup\TermsAndConditions\Userforms;
+
+use EditableFormField;
+use CheckboxField;
+use TermsAndConditionsPage;
+use DropdownField;
+use LiteralField;
+
 /**
  * EditableCheckbox
  * A user modifiable checkbox on a UserDefinedForm

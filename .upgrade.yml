@@ -1,0 +1,4 @@
+mappings:
+  TermsAndConditionsPage: Sunnysideup\TermsAndConditions\TermsAndConditionsPage
+  TermsAndConditionsPageController: Sunnysideup\TermsAndConditions\TermsAndConditionsPageController
+  EditableTermsAndConditionsCheckbox: Sunnysideup\TermsAndConditions\Userforms\EditableTermsAndConditionsCheckbox
