@@ -3,10 +3,16 @@
 namespace Sunnysideup\TermsAndConditions\Userforms;
 
 use EditableFormField;
-use CheckboxField;
-use TermsAndConditionsPage;
-use DropdownField;
-use LiteralField;
+
+
+
+
+use SilverStripe\CMS\Model\SiteTree;
+use SilverStripe\Forms\CheckboxField;
+use Sunnysideup\TermsAndConditions\TermsAndConditionsPage;
+use SilverStripe\Forms\DropdownField;
+use SilverStripe\Forms\LiteralField;
+
 
 /**
  * EditableCheckbox
@@ -22,7 +28,7 @@ class EditableTermsAndConditionsCheckbox extends EditableFormField
     private static $plural_name = 'Terms and Conditions Checkboxes';
 
     private static $has_one = array(
-        "TandCPage" => "SiteTree"
+        "TandCPage" => SiteTree::class
     );
 
     public function getFieldConfiguration()

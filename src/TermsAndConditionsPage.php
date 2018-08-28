@@ -3,7 +3,9 @@
 namespace Sunnysideup\TermsAndConditions;
 
 use Page;
-use Page_Controller;
+
+use PageController;
+
 
 
 class TermsAndConditionsPage extends Page
@@ -16,7 +18,7 @@ class TermsAndConditionsPage extends Page
     }
 }
 
-class TermsAndConditionsPageController extends Page_Controller/*
+class TermsAndConditionsPageController extends PageController/*
 ### @@@@ START UPGRADE REQUIRED @@@@ ###
 FIND: _Controller extends Page_Controller
 NOTE: Remove the underscore in your classname - check all references! 
